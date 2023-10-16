@@ -1,0 +1,12 @@
+Telegram username: @qa_soloviev_bot
+Telegram token: 6395517147:AAEkkaSzrOsuhagwzGontjlV0vOPT8cbPpk
+Chat ID: -1001907023194
+
+
+Fetch bot updates and look for the chat id:
+curl https://api.telegram.org/bot6395517147:AAEkkaSzrOsuhagwzGontjlV0vOPT8cbPpk/getUpdates | jq .message.chat.id
+
+
+
+Send a message using the HTTP API: https://core.telegram.org/bots/api#sendmessage
+curl -X POST -H 'Content-Type: application/json' -d '{"chat_id": "-1001907023194", "text": "This is a test from curl", "disable_notification": true}' https://api.telegram.org/bot6395517147:AAEkkaSzrOsuhagwzGontjlV0vOPT8cbPpk/sendMessage

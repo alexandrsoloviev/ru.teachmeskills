@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "ERP",
+    "environment": "Stage",
+    "comment": "test",
+    "reportLink": "",
+    "language": "ru",
+    "allureFolder": "build/reports/allure-report/allureReport",
+    "enableChart": true
+  },
+  "telegram": {
+    "token": "6395517147:AAEkkaSzrOsuhagwzGontjlV0vOPT8cbPpk",
+    "chat": "-1001907023194",
+    "replyTo": ""
+  }
+}
