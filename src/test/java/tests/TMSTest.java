@@ -10,7 +10,7 @@ public class TMSTest extends BaseTest{
     @Test
     void siteIsOpened(){
         step("Открыть сайт", () -> {
-            open("");
+            open("/wqeqwe");
         });
         step("Кнопки для заявок загружены", ()->{
             $$x("//button[contains(@class,'ContactForm__StyledButton')]").
